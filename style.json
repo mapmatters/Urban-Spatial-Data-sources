@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "name": "dobng parkinglot", 
+  "sources": {
+    "parkinglot": {
+      "type": "vector",
+      "tiles": [
+        "https://104.155.219.158:3000/parkinglot/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 13,
+      "maxzoom": 20
+    }
+  },
+  "layers": [{
+    "id": "background",
+    "source":"parkinglot",
+    "type": "background",
+    "paint": {
+      "background-color": "#808080"
+    }
+  },{
+    "id": "mngm_area",
+    "source":"parkinglot",
+    "source-layer":"mngm_area",
+    "type": "fill",
+    "paint": {
+      "fill-color": "#572312"
+    }
+  },{
+    "id": "pilji",
+    "type": "fill",
+    "source":"parkinglot",
+    "source-layer":"pilji",
+    "paint": {
+      "fill-color": "#126512"
+    }
+  }]
+}
