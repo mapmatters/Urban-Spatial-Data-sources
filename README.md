@@ -1,5 +1,11 @@
 # Urban Spatial Data sources
 
+Seoul
+
+- Traffic Information(S.Korea Nationwide) http://openapi.its.go.kr/data/centerTraffic.do
+- Public Bicycle Stations http://data.seoul.go.kr/
+- Traffic Accidents(S.Korea Nationwide) https://www.data.go.kr/dataset/15003493/fileData.do
+
 Chicago
 
 - Crimes in Chicago https://www.kaggle.com/currie32/crimes-in-chicago
@@ -22,8 +28,5 @@ Singapore
 - LTA Bicycle Rack https://data.gov.sg/dataset/lta-bicycle-rack
 - LTA Parking Standards Zone https://data.gov.sg/dataset/lta-parking-standards-zone
 
-Seoul
-
-- Traffic Information(S.Korea Nationwide) http://openapi.its.go.kr/data/centerTraffic.do
-- Public Bicycle Stations http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-13252&srvType=S&serviceKind=1&currentPageNo=6&searchValue=&searchKey=null
-- Traffic Accidents(S.Korea Nationwide) https://www.data.go.kr/dataset/15003493/fileData.do
+Common
+- Uber H3 Spatial index https://eng.uber.com/h3/
